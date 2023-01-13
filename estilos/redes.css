@@ -8,7 +8,12 @@
     font-family: sans-serif;
 }
 
-body {
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+body,html{
     width: 100vw;
     height: 100vh;
 }
@@ -19,6 +24,12 @@ a {
     display: block;
     background-color:darkmagenta;
     color: white;
+    
+}
+
+img {
+    width: 100vw;
+    
 }
 
 a:hover{
