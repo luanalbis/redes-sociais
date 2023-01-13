@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    padding: 20px;
+    text-align: center;
+    display: block;
+    background-color:darkmagenta;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(155, 89, 155);
+    text-decoration: underline;
+}
