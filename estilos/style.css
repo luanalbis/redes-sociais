@@ -51,7 +51,7 @@ main{
 }
 
 #redes img:hover{
-   border: solid white;
+   border: solid 2px white;
    transform: translate(-4px ,-4px );
    transition: transform 0.1s , border 0.1s;
    
