@@ -13,9 +13,8 @@
     height: 0;
 }
 
-body,html{
+body,img{
     width: 100vw;
-    height: 100vh;
 }
 
 a {
@@ -24,15 +23,9 @@ a {
     display: block;
     background-color:darkmagenta;
     color: white;
-    
-}
-
-img {
-    width: 100vw;
-    
 }
 
 a:hover{
-    background-color: rgb(155, 89, 155);
-    text-decoration: underline;
+    background-color: rgb(155, 89, 155); 
+    transition: background-color .1s;
 }
