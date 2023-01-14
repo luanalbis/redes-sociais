@@ -27,5 +27,5 @@ a {
 
 a:hover{
     background-color: rgb(155, 89, 155); 
-    transition: background-color .1s;
+    transition: background-color .2s;
 }
